@@ -1,4 +1,4 @@
-#BirdBBS
+#teahub
  
 > PHP Simple BBS V2EX(like), based on [YII framework 1.1.14](http://www.yiiframework.com). 
 
@@ -87,6 +87,3 @@ server {
 }
 
 
-##License
->MIT
-# teabbs
