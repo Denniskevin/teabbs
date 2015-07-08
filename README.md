@@ -12,7 +12,7 @@
 
 1. git clone project to your system
 
-2. config your web server , web root dir is `birdbbs/www/`
+2. config your web server , web root dir is `teahub/www/`
 
 3. type  `http://www.yourname.com/install.php` in browser to install
 
@@ -22,7 +22,7 @@
 
 1. git clone project to your system
 
-2. config your web server , web root dir is `birdbbs/www/`
+2. config your web server , web root dir is `teahub/www/`
 
 3. load all *.sql (`teahub/www/protected/data/`) file to mysql server. (notice table prefix)
 
