@@ -24,9 +24,9 @@
 
 2. config your web server , web root dir is `birdbbs/www/`
 
-3. load all *.sql (`birdbbs/www/protected/data/`) file to mysql server. (notice table prefix)
+3. load all *.sql (`teahub/www/protected/data/`) file to mysql server. (notice table prefix)
 
-4. make file config.php to dir `birdbbs/www/protected/config/config.php`
+4. make file config.php to dir `teahub/www/protected/config/config.php`
 
 5. login to ADMIN panel http://www.yourname.com/index.php?r=admin/default config your system
 
@@ -44,9 +44,9 @@ $CONF['db'] = array(
     'schemaCachingDuration' => 3600
 );
 $CONF['params'] = array(
-    'adminEmail'=>'xbugs@qq.com',
+    'adminEmail'=>'xxxx@qq.com',
     'mail' => array(
-      'noreply' => 'noreply@buxiangshuo.cn',
+      'noreply' => 'admin@teahub.com.cn',
       'smtp' => 'smtp.exmail.qq.com',
       'password' => 'test',
     ),
@@ -65,9 +65,9 @@ $CONF['params'] = array(
 nginx example
 ```
 server {
-        set $htdocs /Users/outman/Repositories/birdbbs/www;
+        set $htdocs /Users/www;
         listen 80;
-        server_name dev.birdbbs.com;
+        server_name dev.teahub.com.cn;
         location / {
             root $htdocs;
             autoindex on;
@@ -85,23 +85,7 @@ server {
            fastcgi_param PATH_INFO $fastcgi_script_name;
        }
 }
-```
-##Online demo
-> [http://bbs.buxiangshuo.cn](http://bbs.buxiangshuo.cn)
 
-##Contact Us & Commercial Service
->pochonlee@gmail.com
-
-##Github
->[https://github.com/outman/birdbbs](https://github.com/outman/birdbbs)
-
-##GitOschina
->[http://git.oschina.net/outman/birdbbs](http://git.oschina.net/outman/birdbbs)
-
-##Screen Snapshot
-![系统安装](doc/images/8.png)
-![系统前台](doc/images/3.png)
-![系统后台](doc/images/7.png)
 
 ##License
 >MIT
