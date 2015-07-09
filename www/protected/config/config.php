@@ -10,9 +10,9 @@ $CONF['db'] = array(
     'schemaCachingDuration' => 3600
 );
 $CONF['params'] = array(
-    'adminEmail'=>'meilunzhi@gmail.com',
+    'adminEmail'=>'test@gmail.com',
     'mail' => array(
     'noreply' => 'smtp.google.com',
-    'smtp' => 'meilunzhi@gmail.com',
-    'password' => 'stxwwxfn9828',
+    'smtp' => 'test@gmail.com',
+    'password' => 'test',
 ));
